@@ -12,6 +12,10 @@ def mean(vals):
 =======
 
 def median(numlist):
+	"""a wrong (imcomplete) implementation of meidan"""
+	return sorted(numlist)[len(numlist)/2]
+
+def median(numlist):
     numlist.sort()
     length = len(numlist)
     index = length/2
